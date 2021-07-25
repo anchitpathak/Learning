@@ -13,6 +13,7 @@ public class FindWay {
 			System.out.println(list);
 			return;
 		}
+		// hello bug fixed
 		for(int i=0;i<len;i++) {
 			if(steps[i]<=remainingSteps) {
 				int nextStep = start+steps[i];
